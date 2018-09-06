@@ -1,0 +1,74 @@
+{
+    "appDesc": {
+        "message": "Help you download video and audio quickly from media sites."
+    },
+    "appName": {
+        "message": "Tải nhạc"
+    },
+    "idVDL": {
+        "message": "Found video files:"
+    },
+    "idADL": {
+        "message": "Found audio files:"
+    },
+    "idnovideo": {
+        "message": "No media found. Please click to media player to get link."
+    },
+    "cancel": {
+        "message": "Cancel"
+    },
+    "close": {
+        "message": "close"
+    },
+    "videolist": {
+        "message": "videos"
+    },
+    "audiolist": {
+        "message": "audios"
+    },
+    "deffolder": {
+        "message": "Folder"
+    },
+    "newToplink": {
+        "message": "new Top Link"
+    },
+    "supported": {
+        "message": "Supported video sites"
+    },
+    "invalidUrl": {
+        "message": "Please enter a valid URL"
+    },
+    "apply": {
+        "message": "Apply"
+    },
+    "cancel": {
+        "message": "Cancel"
+    },
+    "ok": {
+        "message": "Ok"
+    },
+    "download": {
+        "message": "Download<br/>"
+    },
+    "preferred_quality": {
+        "message": "Quality: "
+    },
+    "Download": {
+        "message": "Downdload<br/>"
+    },
+    "DownloadHD": {
+        "message": "Downdload<br/> HD files"
+    },
+    "waiting_for_server_replies": {
+        "message": "Waiting for the video server replies"
+    },
+    "waiting_replies": {
+        "message": "Waiting for server replies"
+    },
+    "please_wait": {
+        "message": "Plesase wait ..."
+    },
+    "download_all_link": {
+        "message": "Download all"
+    }
+}
