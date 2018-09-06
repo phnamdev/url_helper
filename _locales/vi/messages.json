@@ -1,0 +1,74 @@
+{
+    "appDesc": {
+        "message": "Hỗ trợ tải file video và file ca nhạc từ các trang media."
+    },
+    "appName": {
+        "message": "Tải nhạc"
+    },
+    "idVDL": {
+        "message": "Đã tìm thấy file video:"
+    },
+    "idADL": {
+        "message": "Đã tìm thấy file audio:"
+    },
+    "idnovideo": {
+        "message": "Không file media nào tìm được. Hãy click vào trình player ở trang để chạy."
+    },
+    "cancel": {
+        "message": "Hủy"
+    },
+    "close": {
+        "message": "Đóng"
+    },
+    "videolist": {
+        "message": "Video"
+    },
+    "audiolist": {
+        "message": "Audio"
+    },
+    "deffolder": {
+        "message": "Thư mục"
+    },
+    "newToplink": {
+        "message": "Link đầu tiên"
+    },
+    "supported": {
+        "message": "Hỗ trợ trang video"
+    },
+    "invalidUrl": {
+        "message": "Vui lòng nhập URL"
+    },
+    "apply": {
+        "message": "Áp dụng"
+    },
+    "cancel": {
+        "message": "Hủy bỏ"
+    },
+    "ok": {
+        "message": "Đồng ý"
+    },
+    "download": {
+        "message": "Tải xuống<br/>"
+    },
+    "preferred_quality": {
+        "message": "Chất lượng"
+    },
+    "Download": {
+        "message": "Tải xuống<br/>"
+    },
+    "DownloadHD": {
+        "message": "Tải xuống<br/> nội dung"
+    },
+    "waiting_for_server_replies": {
+        "message": "Chờ đợi máy chủ trả lời"
+    },
+    "waiting_replies": {
+        "message": "Đang chờ phản hồi"
+    },
+    "please_wait": {
+        "message": "Xin vui lòng đợi ..."
+    },
+    "download_all_link": {
+        "message": "Tải xuống tất cả"
+    }
+}
