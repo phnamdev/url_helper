@@ -1,0 +1,295 @@
+*{margin: 0px; padding: 0px; outline: none;}
+
+html, body {
+	width: 450px;
+}
+
+#wrapper{
+	float: left;
+	width: 100%;
+	max-height: 407px;
+	overflow: auto;
+	overflow-x:hidden;
+}
+
+#URLHelper-Panel li{
+  list-style: none;
+  padding-left: 20px;
+}
+
+.options {
+	width: 500px;
+	margin: auto;
+	float:left;
+	text-align: left;
+}
+
+.selectLink {
+	float: right;
+	width: 110px;
+	margin-top: 12px;
+	margin-right: 5px;
+	text-align: left;
+}
+
+.downloadLink {
+	float: right;
+	width: 22px;
+	height: 20px;
+	padding: 0;
+	margin: 0;
+	margin-top: 12;
+	margin-right: 3px;
+	vertical-align: top;
+	background: none;
+	border: none;
+	cursor: pointer;
+	margin-bottom: 12px;
+	background: url(images/logo19_light.png) center center no-repeat;
+}
+.downloadLink:hover {
+	background: url(images/logo19_bold.png) center center no-repeat;
+}
+
+.fieldset {
+  border: solid 1px  #ccc;
+  border-radius: 3px;
+  padding: 4px 8px;
+  margin-bottom: 5px;
+  width: 400px;
+}
+
+.tabpane-buttons {
+  padding: 2px 20px 1px 0px;
+  text-align: right;
+}
+
+.tabpane-buttons button{
+	padding: 5px 10px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.idvideo, .vdlButton {
+	font-size:12px;
+	font-family: arial, verdana, helvetica;
+	cursor:pointer;
+	background-color:#fff;
+	line-height: 28px;
+}
+
+#idNoVideo {
+	font-size:12px;
+	font-family: arial, verdana, helvetica;
+	color:#555;
+	line-height: 28px;
+	font-weight:normal;
+	display :none;
+}
+
+#close-button {
+	color:#928692;
+	position:absolute;
+	top: -5px;
+	right:10px;
+	font-size:18px;
+	line-height:15px;
+	z-index:100;
+	text-decoration:none
+}
+
+.clHeader {
+	font-size:12px;
+	font-family: arial, verdana, helvetica;
+    padding:10x;
+	font-weight:bold;
+}
+.clOptionHeader {
+	color: #00aeef;
+	font-size:14px;
+	font-family: arial, verdana, helvetica;
+    padding:2px;
+    margin-top:10px;
+	margin-bottom:10px;
+	font-weight:bold;
+}
+.clDownloadVideo {
+	float:left;
+	font-size:12px;
+  padding-left: 5px;
+  line-height: 20px;
+  padding-top: 14px;
+	font-family: arial, verdana, helvetica;
+	color: #404040;
+	font-size: 12px;
+}
+
+.wrap{
+	width: 100%;
+	clear: both;
+	height: 50px;
+}
+
+.clFileExt {
+	float:left;
+	font-size:10px;
+	width:30px;
+	font-family: arial, verdana, helvetica;
+	background-color:#fdd;
+	color:#fff;
+	font-weight:bold;
+	margin-top:12px;
+	padding:1px;
+	cursor:default;
+	text-align:center;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	display: none;
+}
+.clDownloadButton {
+	float:right;
+	font-size:9px;
+	width:60px;
+	height: 24px;
+	overflow: hidden;
+	font-family: tahoma, arial, helvetica;
+	background: #c6c6c6;
+	color:#ffffff;
+	font-weight:normal;
+	padding:5px;
+	margin-top:7px;
+	margin-bottom:7px;
+	margin-right: 5px;
+	margin-left: 5px;
+	cursor:pointer;
+	text-align:center;
+	border-radius:3px;
+	line-height: 12px;
+}
+.sendButton {
+	float:right;
+	font-size:9px;
+	width:60px;
+	font-family: arial, verdana, helvetica;
+	background: -webkit-linear-gradient(90deg, #4d90fe,#4787ed);
+	color:#fff;
+	font-weight:normal;
+	padding:5px;
+	margin-top:5px;
+	margin-bottom:10px;
+	cursor:pointer;
+	text-align:center;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	display: none;
+}
+.clDownloadButton:hover {
+	background-color:#495;
+}
+.vdlButton2 {
+	font-size:12px;
+	font-family: arial, verdana, helvetica;
+	background-color:#fff;
+	color:#777;
+	padding:2px;
+}
+.idvideo:hover,  .vdlButton:hover {
+	border-top:1px solid #dcdcdc;
+	border-bottom:1px solid #dcdcdc;
+	background-color:#f5f5f5;
+	color: #282828;
+	line-height: 26px;
+}
+.sep {
+	margin-top:5px;
+	margin-bottom:5px;
+	background-color:#00aeef;
+	height:1px;
+}
+.sep3 {
+	margin-top:8px;
+	margin-bottom:8px;
+	background-color:#00aeef;
+	height:1px;
+	width: 500px;
+}
+.sep2 {
+	margin-top:-4px;
+	margin-bottom:10px;
+	background-color:#00aeef;
+	height:1px;
+	float:left;
+	width: 330px;
+}
+
+.panel{
+	float: left;
+    display: none;
+    border: 1px solid #666666;
+    text-align: center;
+    background: #eeeeee;
+    border-radius:10px;
+}
+
+.panel-image {
+	float: left;
+}
+
+.panel-button{
+	float: left;
+    background: #DDD;
+    border: 1px solid #999;
+    border-radius: 10px;
+    color: #333;
+    text-shadow: 2px 2px 2px white;
+    box-shadow: 0px 1px #ccc;
+}
+
+.panel-select{
+	float: left;
+  background: #DDD;
+  width: 400;
+}
+
+
+.preferred_quality{
+	float: left;
+	margin-left: 5px;
+	margin-top: 13px;
+}
+
+#chk_quality{
+	float: left;
+	margin-right: 7px;
+	margin-top: 3px;
+}
+
+#quality-level-selection{
+	float: left;
+	margin-top: 13px;
+	margin-left: 7px;
+}
+
+#DownloadAll{
+	float: right;
+	margin-right: 5px;
+	margin-top: 13px;
+	line-height: 20px;
+	border: 1px solid #f15a22;
+	background: #f15a22;
+	color: #ffffff;
+	padding: 0px 10px;
+	cursor: pointer;
+}
+
+.download_button_wait{
+	height: 25px !important;
+	padding-top: 7px;
+	text-align: center;
+	vertical-align: middle;
+}
+.download_button_wait img{
+	margin: 4px auto;
+}

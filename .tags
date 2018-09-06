@@ -1,0 +1,161 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Array	.\js\content-script.js	/^                Array.prototype.push.apply(tracks, dom.querySelectorAll(xhr.media_pattern));$/;"	c
+Array.push	.\js\content-script.js	/^                Array.prototype.push.apply(tracks, dom.querySelectorAll("data > item"));$/;"	m
+Array.push	.\js\content-script.js	/^                Array.prototype.push.apply(tracks, dom.querySelectorAll("track"));$/;"	m
+Array.push	.\js\content-script.js	/^                Array.prototype.push.apply(tracks, dom.querySelectorAll(xhr.media_pattern));$/;"	m
+Audio.audio.AudioPlayState	.\js\audio.js	/^	AudioPlayState : false,$/;"	p
+Audio.audio.checkForValidUrl	.\js\audio.js	/^	checkForValidUrl : function(tabId, changeInfo, tab) {$/;"	m
+BKAVMessageHandler.vars	.\js\background.js	/^    vars: {},$/;"	p
+BKAV_Controller.curTabId	.\js\media_controller.js	/^    curTabId: 0,$/;"	p
+BKAV_Controller.hasUpdated	.\js\media_controller.js	/^    hasUpdated: false,$/;"	p
+BKAV_Controller.lasturl	.\js\media_controller.js	/^    lasturl: new Object(),$/;"	p
+CommonProvider	.\js\content-script.js	/^    var CommonProvider = function() {$/;"	c
+CommonProvider.ext	.\js\content-script.js	/^        ext: {$/;"	p
+F	.\js\content-script.js	/^        F.prototype = parent.prototype;$/;"	c
+F	.\js\content-script.js	/^        var F = function() {};$/;"	f
+GetFileName	.\js\popup.js	/^function GetFileName(object) {$/;"	f
+InitInfo	.\js\youtube_panel.js	/^function InitInfo() {$/;"	f
+InitPage	.\js\options.js	/^function InitPage () {$/;"	f
+MediaDB	.\js\media_controller.js	/^var MediaDB = function() {$/;"	c
+MediaDB.addURL	.\js\media_controller.js	/^    addURL: function(url) {$/;"	m
+MediaDB.constructor	.\js\media_controller.js	/^    constructor: MediaDB,$/;"	p
+MediaDB.isEmty	.\js\media_controller.js	/^    isEmty: function() {$/;"	m
+MediaDB.reset	.\js\media_controller.js	/^    reset: function() {$/;"	m
+MediaGrabber	.\js\content-script.js	/^    var MediaGrabber = function() {$/;"	c
+MediaGrabber._init	.\js\content-script.js	/^        _init: function() {$/;"	m
+MediaGrabber._onMessageHandler	.\js\content-script.js	/^        _onMessageHandler: function(t, e, callback) {$/;"	m
+MediaGrabber.constructor	.\js\content-script.js	/^        constructor: MediaGrabber,$/;"	p
+MediaGrabber.registerProviders	.\js\content-script.js	/^        registerProviders: function(t) {$/;"	m
+MediaProviderInterface	.\js\content-script.js	/^    var MediaProviderInterface = function() {$/;"	c
+MediaProviderInterface._getMediaFromXmlUrl	.\js\content-script.js	/^        _getMediaFromXmlUrl: function(url, cfunc) {$/;"	m
+MediaProviderInterface.constructor	.\js\content-script.js	/^        constructor: MediaProviderInterface,$/;"	p
+MediaProviderInterface.getMedia	.\js\content-script.js	/^        getMedia: function(cfunc) {$/;"	m
+MediaProviderInterface.getMediaCount	.\js\content-script.js	/^        getMediaCount: function() {$/;"	m
+MediaProviderInterface.processRequest	.\js\content-script.js	/^        processRequest: function(t) {$/;"	m
+MediaProviderInterface.processXMLResponse	.\js\content-script.js	/^        processXMLResponse: function() {$/;"	m
+Media_type	.\js\media_collections.js	/^var Media_type = [$/;"	v
+NormalizeFileName	.\js\popup.js	/^function NormalizeFileName(filename) {$/;"	f
+NormalizeUrl	.\js\popup.js	/^function NormalizeUrl(url) {$/;"	f
+OnCancel	.\js\options.js	/^function OnCancel () {$/;"	f
+OnOk	.\js\options.js	/^function OnOk () {	$/;"	f
+PREFIX	.\js\prefs.js	/^var PREFIX = "URLHelper.prefs";$/;"	v
+S.J	.\js\lib\jquery-1.7.1.min.js	/^    function J() {$/;"	f
+S.K	.\js\lib\jquery-1.7.1.min.js	/^    function K() {$/;"	f
+S.n	.\js\lib\jquery-1.7.1.min.js	/^    function n(a, b, c) {$/;"	f
+Video.video.VideoPlayState	.\js\video.js	/^	VideoPlayState : false,$/;"	p
+Video.video.YOUTUBE_EL_PARAMS	.\js\video.js	/^	YOUTUBE_EL_PARAMS : "&el=detailpage&ps=default&eurl=&gl=US&hl=en",$/;"	p
+Video.video.YOUTUBE_INFO_URL	.\js\video.js	/^	YOUTUBE_INFO_URL : "http:\/\/www.youtube.com\/get_video_info?video_id=",$/;"	p
+Video.video.formats	.\js\video.js	/^	formats : {$/;"	p
+__defineSetter__	.\js\content-script.js	/^                    child.prototype.__defineSetter__(prop, setter);$/;"	m
+add_to_main_player	.\js\youtube_panel.js	/^function add_to_main_player() {$/;"	f
+add_to_playlist_page	.\js\youtube_panel.js	/^function add_to_playlist_page() {$/;"	f
+adl.audiolist	.\js\audio.js	/^	audiolist : new Object(),$/;"	p
+after_watchlater	.\js\youtube_panel.js	/^function after_watchlater() {$/;"	f
+askBeforehide	.\js\options.js	/^var askBeforehide = true;$/;"	v
+audioUrls	.\js\popup.js	/^var audioUrls = 0;$/;"	v
+bj.U	.\js\lib\jquery-1.7.1.min.js	/^    function U(a) {$/;"	f
+bj.bi	.\js\lib\jquery-1.7.1.min.js	/^    function bi(a, b) {$/;"	f
+bl.bk	.\js\lib\jquery-1.7.1.min.js	/^    function bk(a, b) {$/;"	f
+bn.bm	.\js\lib\jquery-1.7.1.min.js	/^    function bm(a) {$/;"	f
+cc.b$	.\js\lib\jquery-1.7.1.min.js	/^    function b$(a, c, d, e, f, g) {$/;"	f
+cc.bC	.\js\lib\jquery-1.7.1.min.js	/^    function bC(a, b, c) {$/;"	f
+cc.bZ	.\js\lib\jquery-1.7.1.min.js	/^    function bZ(a) {$/;"	f
+cc.b_	.\js\lib\jquery-1.7.1.min.js	/^    function b_(a, c) {$/;"	f
+cc.bo	.\js\lib\jquery-1.7.1.min.js	/^    function bo(a) {$/;"	f
+cc.bp	.\js\lib\jquery-1.7.1.min.js	/^    function bp(a, b) {$/;"	f
+cc.ca	.\js\lib\jquery-1.7.1.min.js	/^    function ca(a, b, c, d) {$/;"	f
+cc.cb	.\js\lib\jquery-1.7.1.min.js	/^    function cb(a, c, d) {$/;"	f
+changeLink	.\js\youtube_panel.js	/^function changeLink(event) {$/;"	f
+checkMouseHover	.\js\youtube_panel.js	/^function checkMouseHover() {$/;"	f
+chiasenhac	.\js\content-script.js	/^    var chiasenhac = function() {$/;"	c
+chiasenhac.MEDIA_PATTERN	.\js\content-script.js	/^        MEDIA_PATTERN: 'a[href *= "chiasenhac.com\/downloads"]',$/;"	p
+chiasenhac._getMediaFromXmlUrl	.\js\content-script.js	/^        _getMediaFromXmlUrl: function(xhr, url, cfunc) {$/;"	m
+chiasenhac.getMedia	.\js\content-script.js	/^        getMedia: function(cfunc) {$/;"	m
+chiasenhac.processRequest	.\js\content-script.js	/^        processRequest: function(t) {$/;"	m
+chiasenhac.processXMLResponse	.\js\content-script.js	/^        processXMLResponse: function(xhr) {$/;"	m
+child	.\js\content-script.js	/^        child.prototype.constructor = child;$/;"	c
+child.constructor	.\js\content-script.js	/^        child.prototype.constructor = child;$/;"	m
+closePanel	.\js\youtube_panel.js	/^function closePanel() {$/;"	f
+cs.ci	.\js\lib\jquery-1.7.1.min.js	/^    function ci() {$/;"	f
+cs.cj	.\js\lib\jquery-1.7.1.min.js	/^    function cj() {$/;"	f
+csn_length	.\js\content-script.js	/^    var csn_length = 0;$/;"	v
+curTabId	.\js\popup.js	/^var curTabId = 0;$/;"	v
+delegate	.\js\content-script.js	/^    function delegate(that, thatMethod, args) {$/;"	f
+enablePageAction	.\js\options.js	/^var enablePageAction = true;$/;"	v
+filename	.\js\background.js	/^        var filename = vdl.urllist[tab.id][0].title;$/;"	v
+find_yt_id	.\js\youtube_panel.js	/^function find_yt_id(c) {$/;"	f
+float_panel	.\js\youtube_panel.js	/^var float_panel;$/;"	v
+fn.YoutubeHover	.\js\youtube_panel.js	/^(function(a) {$/;"	f
+formatMime	.\js\youtube_panel.js	/^function formatMime(mimeType) {$/;"	f
+function.OnDownloadAll	.\js\popup.js	/^function OnDownloadAll(ev) {$/;"	f
+function.OnDownloadMedia	.\js\popup.js	/^function OnDownloadMedia(ev) {$/;"	f
+function.OnSelectChanged	.\js\popup.js	/^function OnSelectChanged(ev) {$/;"	f
+function.createMultipleLinkEntry	.\js\popup.js	/^function createMultipleLinkEntry(object, index) {$/;"	f
+function.cu	.\js\lib\jquery-1.7.1.min.js	/^    function cu(a, b) {$/;"	f
+function.getI18nMsg	.\js\popup.js	/^function getI18nMsg(msgname) {$/;"	f
+function.showAudioUrls	.\js\popup.js	/^function showAudioUrls() {$/;"	f
+getLinkResponse	.\js\media_controller.js	/^function getLinkResponse(response) {$/;"	f
+getPrefs	.\js\options.js	/^function getPrefs(prefs){$/;"	f
+has_yt_link	.\js\youtube_panel.js	/^var has_yt_link = false;$/;"	v
+hideControl	.\js\popup.js	/^function hideControl(id) {$/;"	f
+isMedia	.\js\media_controller.js	/^        var isMedia = false;$/;"	v
+is_force_close	.\js\youtube_panel.js	/^var is_force_close = false;$/;"	v
+is_show_panel	.\js\youtube_panel.js	/^var is_show_panel = false;$/;"	v
+jq	.\js\youtube_panel.js	/^var jq = jQuery;$/;"	v
+jqBody	.\js\youtube_panel.js	/^var jqBody;$/;"	v
+l.function.J	.\js\lib\jquery-1.7.1.min.js	/^            function J() {$/;"	f
+l.h	.\js\lib\jquery-1.7.1.min.js	/^    function h(a) {$/;"	f
+l.var.e	.\js\lib\jquery-1.7.1.min.js	/^            var e = function (a, b) {$/;"	f
+len	.\js\media_controller.js	/^        var len = 0;$/;"	v
+loadPref	.\js\options.js	/^function loadPref(e){$/;"	f
+media_site.VideoSites	.\js\media_collections.js	/^    "VideoSites": [{$/;"	p
+moveIn	.\js\youtube_panel.js	/^        moveIn = function() {$/;"	f
+moveOut	.\js\youtube_panel.js	/^        moveOut = function() {$/;"	f
+nhaccuatui	.\js\content-script.js	/^    var nhaccuatui = function() {$/;"	c
+nhaccuatui._getMediaFromXmlUrl	.\js\content-script.js	/^        _getMediaFromXmlUrl: function(url, cfunc) {$/;"	m
+nhaccuatui.getMedia	.\js\content-script.js	/^        getMedia: function(cfunc) {$/;"	m
+nhaccuatui.processRequest	.\js\content-script.js	/^        processRequest: function(t) {$/;"	m
+nhaccuatui.processXMLResponse	.\js\content-script.js	/^        processXMLResponse: function(xhr) {$/;"	m
+one_click	.\js\options.js	/^var one_click = false;$/;"	v
+pTop	.\js\youtube_panel.js	/^var pTop = 0,$/;"	v
+playlist_sidebar	.\js\youtube_panel.js	/^function playlist_sidebar() {$/;"	f
+prefs	.\js\prefs.js	/^prefs = function(name,defaultValue){$/;"	f
+priority	.\js\media_controller.js	/^        var priority = 0;$/;"	v
+re_match_get	.\js\youtube_panel.js	/^function re_match_get(c, b, a) {$/;"	f
+saveFile	.\js\youtube_panel.js	/^function saveFile(event) {$/;"	f
+setupFloatPanel	.\js\youtube_panel.js	/^function setupFloatPanel() {$/;"	f
+setupMainPlayerHover	.\js\youtube_panel.js	/^function setupMainPlayerHover() {$/;"	f
+setup_vimeo	.\js\youtube_panel.js	/^function setup_vimeo() {$/;"	f
+setup_youtube	.\js\youtube_panel.js	/^function setup_youtube() {$/;"	f
+setup_yt_hover	.\js\youtube_panel.js	/^function setup_yt_hover() {$/;"	f
+showContextMenu	.\js\options.js	/^var showContextMenu = true;$/;"	v
+showDownloadLink	.\js\youtube_panel.js	/^function showDownloadLink(event) {$/;"	f
+showFloatPanel	.\js\youtube_panel.js	/^function showFloatPanel(obj, link) {$/;"	f
+showPanel	.\js\options.js	/^var showPanel = false;$/;"	v
+showYoutubeMsg	.\js\popup.js	/^var showYoutubeMsg = false;$/;"	v
+strVN.Phonetics	.\js\popup.js	/^    Phonetics: ["", "àáảãạ", "âầấẩẫậ", "ăằắẳẵặ", "èéẻẽẹ", "êềếểễệ", "ìíỉĩị", "òóỏõọ", "ôồốổỗộ", "ơờớởỡợ", "ùúủũụ", "ưừứửữự", "ỳýỷỹỵ", "đ", "Đ"],$/;"	p
+tab_id	.\js\youtube_panel.js	/^var tab_id = false;$/;"	v
+timeEvent	.\js\media_controller.js	/^var timeEvent = null;$/;"	v
+timeFunc	.\js\media_controller.js	/^function timeFunc() {$/;"	f
+timerOn	.\js\youtube_panel.js	/^var timerOn, timerOff;$/;"	v
+title	.\js\video.js	/^		var title = vdl.urlPlaying[tabid].title;$/;"	v
+updatePref	.\js\options.js	/^function updatePref(event) {	$/;"	f
+url_page	.\js\youtube_panel.js	/^var url_page = location + "";$/;"	v
+var.h.name	.\js\media_controller.js	/^                    name: "Content-Disposition",$/;"	p
+var.h.value	.\js\media_controller.js	/^                    value: 'attachment; filename="' + filename + '"'$/;"	p
+var.window_info.url	.\js\background.js	/^                    url: chrome.extension.getURL("panel.html"),$/;"	p
+videoUrls	.\js\popup.js	/^var videoUrls = 0;$/;"	v
+vimeo_detail	.\js\youtube_panel.js	/^function vimeo_detail() {$/;"	f
+watch_detail	.\js\youtube_panel.js	/^function watch_detail() {$/;"	f
+xhr.onreadystatechange	.\js\popup.js	/^                xhr.onreadystatechange = function() {$/;"	f
+youTubeLinks	.\js\youtube_panel.js	/^var youTubeLinks = false;$/;"	v
+zing	.\js\content-script.js	/^    var zing = function() {$/;"	c
+zing._getMediaFromXmlUrl	.\js\content-script.js	/^        _getMediaFromXmlUrl: function(url, cfunc) {$/;"	m
+zing.getMedia	.\js\content-script.js	/^        getMedia: function(cfunc) {$/;"	m
+zing.processRequest	.\js\content-script.js	/^        processRequest: function(t) {$/;"	m
+zing.processXMLResponse	.\js\content-script.js	/^        processXMLResponse: function() {$/;"	m

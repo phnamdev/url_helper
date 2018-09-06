@@ -1,0 +1,232 @@
+.html5-player-chrome{
+  overflow: inherit !important;
+}
+
+.ytp-top-menu-container {
+  position: absolute;
+  left: 10px;
+  z-index: 100000;
+  width: 180px;
+  height: 20px;
+  background-color: rgba(0,0,0,0.6);
+  opacity: .75;
+  background-image: none;
+  border: 1px solid rgba(0,0,0,0.6);
+  border-radius: 0;
+  padding: 4px;
+  padding-left: 10px;
+  cursor: pointer;
+  font-size: 11px;
+  color: #fff;
+  text-shadow: #000 0 -1px 0;
+  text-decoration: none;
+}
+
+.ytp-top-menu-container:hover{
+  border: 1px solid #4e4848;
+  opacity: .99;
+}
+
+.ytp-top-menu-container .download_button_panel{
+  float: left;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: none;
+}
+
+.ytp-top-menu-container .download_button_panel .header_icon {
+  float: left;
+  width: 16px;
+  height: 16px;
+  border: none;
+  padding-left: 3em;
+  margin-left: -3em;
+  margin-top: 2px;
+  margin-right: 10px;
+}
+
+.ytp-top-menu-container .download_button_panel .header_title{
+  float: left;
+  text-align: -webkit-left; /* VanDD */
+  font-family: Arial,sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  margin-top: 2px;
+  width: 80%;
+  font-weight: bold;
+}
+
+.ytp-menu-title-ext, .ytp-drop-down-label-content-ext{
+  width: 300px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ytp-drop-down-label-content-ext {
+	display: inline-block;
+}
+
+.yt-uix-form-input-select-element-ext {
+	position: relative;
+	height: 26px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+  	width: 180px;
+  	white-space: nowrap;
+  	overflow: hidden;
+  	text-overflow: ellipsis;
+    padding: 2px 30px 2px 2px;
+    border: none;
+  	background: rgb(80,110,120)
+  	url("http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png")
+  	no-repeat right center;
+}
+
+.ytp-top-menu-container .download_button_panel .close_padding_panel {
+  color: #fff;
+  cursor: pointer;
+  width: 20px;
+  height: 21px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 100001;
+}
+
+.ytp-top-menu-container .download_button_panel .close_button_panel {
+  float: left;
+  background-image: url(images/close_icon.png);
+  height: 10px;
+  margin-top: 5px;
+  margin-left: 5px;
+  width: 10px;
+}
+
+.ytp-top-menu-container .close_padding_panel:hover .close_button_panel {
+  float: left;
+  background: rgba(0,0,0,0.15) url(images/close_icon.png) center center no-repeat;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 3px rgba(0,0,0,0.3), 0 1px 0 rgba(255,255,255,0.5);
+  height: 20px;
+  margin: 0px;
+  width: 20px;
+}
+
+/* VanDD : pinvideo*/
+.ytp-top-menu-container .download_button_panel .pin_padding_panel {
+  color: #fff;
+  cursor: pointer;
+  width: 20px;
+  height: 21px;
+  position: absolute;
+  right: 21px;
+  top: 0;
+  z-index: 100001;
+}
+
+.ytp-top-menu-container .download_button_panel .pin_button_panel {
+  float: left;
+  background-image: url(images/pin_video.png);
+  height: 16px;
+  margin-top: 3px;
+  margin-left: 0px;
+  width: 17px;
+}
+
+.ytp-top-menu-container .pin_padding_panel:hover .pin_button_panel {
+  float: left;
+  background: rgba(0,0,0,0.15) url(images/pin_video.png) center center no-repeat;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 3px rgba(0,0,0,0.3), 0 1px 0 rgba(255,255,255,0.5);
+  height: 20px;
+  margin: 0px;
+  width: 20px;
+}
+
+.popup_list_download_item{
+  position: absolute;
+  top: 23px;
+  left: -11px;
+  width: 354px;
+  z-index: 100002;
+  background-color: rgba(0,0,0,0.6);
+  opacity: .75;
+  background-image: none;
+  border: 1px solid #4e4848;
+  border-top: none;
+  border-radius: 0;
+  padding: 4px;
+  padding-left: 6px;
+  font-family: Arial,sans-serif;
+  font-size: 11px;
+  color: #fff;
+  text-shadow: #000 0 -1px 0;
+  text-decoration: none;
+  display: none !important;
+  overflow: hidden;
+}
+
+.pin-class {
+  width: 190px !important;
+  height: 30px !important;
+}
+/*End of comment*/
+
+#popup_list_download_item{
+  position: absolute;
+  top: 23px;
+  left: -11px;
+  width: 354px;
+  z-index: 100002;
+  background-color: rgba(0,0,0,0.6);
+  opacity: .75;
+  background-image: none;
+  border: 1px solid #4e4848;
+  border-top: none;
+  border-radius: 0;
+  padding: 4px;
+  padding-left: 6px;
+  font-family: Arial,sans-serif;
+  font-size: 11px;
+  color: #fff;
+  text-shadow: #000 0 -1px 0;
+  text-decoration: none;
+  display: none;
+  overflow: hidden;
+}
+
+.ytp-top-menu-container-extend{
+  width: 350px !important;
+  border-bottom: none !important;
+}
+
+.panel_show{
+  display: block !important;
+}
+
+/* List ITEM */
+.ul_download_list_item{
+  float: left;
+  width: 354px;
+  margin-left: 0px;
+  margin-top: -3px; /*VanDD*/
+}
+
+.ul_download_list_item li{
+  float: left;
+  text-align: -webkit-left; /* VanDD */
+  width: 348px;
+  line-height: 20px;
+  padding-left: 4px;
+  margin-top: 7px;
+  font-size: 12px;
+}
+.ul_download_list_item li:hover{
+  cursor: pointer;
+  background: rgba(0,0,0,0.15);
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 3px rgba(0,0,0,0.3), 0 1px 0 rgba(255,255,255,0.5);
+  height: 20px;
+}

@@ -1,0 +1,108 @@
+{
+  "name": "__MSG_appName__",
+  "version": "1.0.10",
+  "incognito": "split",
+  "manifest_version": 2,
+  "background": {
+    // "persistent": false,
+    "scripts": [
+      "js\/lib\/global.js",
+      "js\/video.js",
+      "js\/audio.js",
+      "js\/content_adblock.js",
+      "js\/media_collections.js",
+      "js\/media_controller.js",
+      "js\/background.js"
+    ]
+  },
+  "options_page": "options.html",
+  "page_action": {
+    "default_icon": {
+      "19": "images\/icon18_bold.png",
+      "38": "images\/logo38.png"
+    },
+    "default_title": "URL download",
+    "default_popup": "popup.html"
+  },
+
+  "content_scripts": [{
+    "js": ["js\/lib\/jquery-1.7.1.min.js"],
+    "matches": ["http://*/*", "https://*/*"],
+    "run_at": "document_start"
+  }, {
+    "js": ["js\/youtube_panel.js", "js\/lib\/global.js"],
+    "matches": ["http://www.youtube.com/*",
+      "https://www.youtube.com/*"
+    ],
+    "run_at": "document_start"
+  }, {
+    "js": ["js\/content-script.js"],
+    "matches": ["http://*/*", "https://*/*"],
+    "exclude_matches": [
+      "http://www.youtube.com/*",
+      "https://www.youtube.com/*"
+    ],
+    "run_at": "document_start"
+  }, {
+    "js": ["js\/content_embeded.js"],
+    "all_frames": true,
+    "matches": ["http://*/*", "https://*/*", "\u003Call_urls\u003E"],
+    "exclude_matches": ["http://www.youtube.com/*",
+      "https://www.youtube.com/*",
+      "https://vimeo.com/*"
+    ],
+    "run_at": "document_end"
+  }, {
+    "js": ["js\/page_beautify.js"],
+    "matches": ["http://*/*", "https://*/*"],
+    "exclude_matches": [
+      "http://www.youtube.com/*",
+      "https://www.youtube.com/*",
+      "http://xemvtv.net/*"
+    ],
+    "run_at": "document_start"
+  }],
+  "default_locale": "en",
+  "description": "__MSG_appDesc__",
+  "icons": {
+    "19": "images\/icon18_bold.png",
+    "128": "images\/logo128.png"
+  },
+  "web_accessible_resources": [
+    "images\/logo19.png",
+    "images\/logo19_embed.png",
+    "images\/logo19_bold.png",
+    "images\/logo19_light.png",
+    "images\/gear.png",
+    "images\/save.png",
+    "images\/close_icon.png",
+    "images\/icon_download.png",
+    "images\/close_icon_hover.png",
+    "images\/logo17.png",
+    "images\/loading.gif",
+    "images\/icon18_bold.png",
+    "images\/pin_video.png",
+    "css_ext.css"
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval' https://www.google.com https://www.facebook.com https://connect.facebook.net/; object-src 'self'",
+  "permissions": [
+    "bkavAdblock",
+    "downloads",
+    "downloadsBatch",
+    "downloadsCaptureTool",
+    "combineDashStream",
+    "bkavMediaTabHelper.notify",
+    "contextMenus",
+    "storage",
+    "unlimitedStorage",
+    "declarativeWebRequest",
+    "webRequest",
+    "webRequestBlocking",
+    "webNavigation",
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "version": "1.0.11"
+}

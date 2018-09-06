@@ -1,0 +1,45 @@
+﻿<!doctype html>
+<html>
+	<head>
+		<meta charset="utf8">
+		<title>Tùy chọn Tải nhạc</title>
+		<link rel="stylesheet" href="styles.css">
+		<script src="js/prefs.js"></script>
+	</head>
+	<body class="options">
+		<div id="paneGeneral">
+			<!-- Related to application settings -->
+			<fieldset class="fieldset">
+				<legend >
+					 Tùy chọn
+				</legend>
+				<div class='clOptionHeader'>
+					Giao diện người dùng:
+				</div>
+				<div>
+					<input type="checkbox" id="download_bar_id" name = "display.showPanel"/>
+					<label for "download_bar_id">Hiển thị nổi bảng điều khiển đa phương tiện</label>
+				</div>
+				<div>
+					<input type="checkbox" id="context_menu_id" name = "display.showContextMenu"/>
+					<label for "context_menu_id">Hiển thị menu ngữ cảnh</label>
+				</div>
+				<div class='sep3'></div>
+				<div>
+					<input type="checkbox" id="one_click_id" name = "display.one_click"/>
+					<label for "one_click_id">Cho phép tải luôn chỉ bằng một click</label>
+				</div>
+
+			</fieldset>
+		</div>
+		<div class="tabpane-buttons">
+			<button id="buttonSave" tabindex="0">
+				Đồng ý
+			</button>
+			<button id="buttonCancel" tabindex="0">
+				Hủy bỏ
+			</button>
+		</div>
+	</body>
+	<script src="js/options.js"></script>
+</html>
